@@ -60,6 +60,7 @@ In AppiumBase.jav), update the device UDID:
 .mvn clean test
 ```
 ## Test Structure
+````` 
 src
 ├── main
 │   └── java
@@ -70,3 +71,4 @@ src
 │          ├── stepDef/     # Step Defs for Cucumber
 │  └── resources
       └── features/                # .feature files
+````` 
