@@ -63,12 +63,13 @@ In AppiumBase.jav), update the device UDID:
 ````` 
 src
 ├── main
-│   └── java
-│       └── huyenltt20
-│          ├──core/AppiumBase
-│          ├── pages/              
-│          └── options/CumcumberRunner               
-│          ├── stepDef/     # Step Defs for Cucumber
-│  └── resources
-      └── features/                # .feature files
+│ ├── java
+│ │ └── huyenltt20
+│ │ ├── core/
+│ │ │ └── AppiumBase.java # Base setup for Appium
+│ │ ├── options/
+│ │ │ └── CucumberRunner.java # Cucumber test runner
+│ │ ├── pages/
+│ │ └── stepDef/
+│ └── resources
 ````` 
